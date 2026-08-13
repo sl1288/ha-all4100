@@ -1,0 +1,65 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Device is already configured",
+      "reauth_successful": "Re-authentication was successful",
+      "reconfigure_successful": "Reconfiguration was successful"
+    },
+    "error": {
+      "cannot_connect": "Failed to connect",
+      "invalid_auth": "Invalid authentication",
+      "unknown": "Unexpected error"
+    },
+    "step": {
+      "reauth_confirm": {
+        "data": {
+          "password": "Password"
+        },
+        "data_description": {
+          "password": "The password of the ALL4100 web interface."
+        },
+        "description": "The ALL4100 at {host} rejected the stored credentials for user {username}. Enter the current password."
+      },
+      "reconfigure": {
+        "data": {
+          "host": "Host",
+          "password": "Password",
+          "username": "Username"
+        },
+        "data_description": {
+          "host": "The hostname or IP address of the ALL4100.",
+          "password": "The password of the ALL4100 web interface.",
+          "username": "The user name of the ALL4100 web interface."
+        },
+        "description": "Update the connection details of your ALL4100."
+      },
+      "user": {
+        "data": {
+          "host": "Host",
+          "password": "Password",
+          "username": "Username"
+        },
+        "data_description": {
+          "host": "The hostname or IP address of the ALL4100.",
+          "password": "The password of the ALL4100 web interface.",
+          "username": "The user name of the ALL4100 web interface."
+        },
+        "description": "Enter the connection details of your ALLNET ALL4100 Ethernet Power Switch."
+      }
+    }
+  },
+  "exceptions": {
+    "authentication_failed": {
+      "message": "Authentication with the ALL4100 failed, please reauthenticate."
+    },
+    "connection_failed": {
+      "message": "Failed to communicate with the ALL4100."
+    },
+    "switch_turn_off_failed": {
+      "message": "Failed to turn off {name}."
+    },
+    "switch_turn_on_failed": {
+      "message": "Failed to turn on {name}."
+    }
+  }
+}

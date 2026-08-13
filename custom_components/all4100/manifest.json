@@ -1,0 +1,10 @@
+{
+  "domain": "all4100",
+  "name": "ALLNET ALL4100",
+  "codeowners": ["@sl1288"],
+  "config_flow": true,
+  "documentation": "https://github.com/sl1288/ha-all4100",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "version": "1.0.0"
+}

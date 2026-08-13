@@ -1,0 +1,65 @@
+{
+  "config": {
+    "abort": {
+      "already_configured": "Gerät ist bereits konfiguriert",
+      "reauth_successful": "Erneute Authentifizierung war erfolgreich",
+      "reconfigure_successful": "Neukonfiguration war erfolgreich"
+    },
+    "error": {
+      "cannot_connect": "Verbindung fehlgeschlagen",
+      "invalid_auth": "Ungültige Authentifizierung",
+      "unknown": "Unerwarteter Fehler"
+    },
+    "step": {
+      "reauth_confirm": {
+        "data": {
+          "password": "Passwort"
+        },
+        "data_description": {
+          "password": "Das Passwort der ALL4100-Weboberfläche."
+        },
+        "description": "Der ALL4100 unter {host} hat die gespeicherten Zugangsdaten für den Benutzer {username} abgelehnt. Bitte gib das aktuelle Passwort ein."
+      },
+      "reconfigure": {
+        "data": {
+          "host": "Host",
+          "password": "Passwort",
+          "username": "Benutzername"
+        },
+        "data_description": {
+          "host": "Der Hostname oder die IP-Adresse des ALL4100.",
+          "password": "Das Passwort der ALL4100-Weboberfläche.",
+          "username": "Der Benutzername der ALL4100-Weboberfläche."
+        },
+        "description": "Aktualisiere die Verbindungsdaten deines ALL4100."
+      },
+      "user": {
+        "data": {
+          "host": "Host",
+          "password": "Passwort",
+          "username": "Benutzername"
+        },
+        "data_description": {
+          "host": "Der Hostname oder die IP-Adresse des ALL4100.",
+          "password": "Das Passwort der ALL4100-Weboberfläche.",
+          "username": "Der Benutzername der ALL4100-Weboberfläche."
+        },
+        "description": "Gib die Verbindungsdaten deines ALLNET ALL4100 Ethernet Power Switch ein."
+      }
+    }
+  },
+  "exceptions": {
+    "authentication_failed": {
+      "message": "Die Authentifizierung am ALL4100 ist fehlgeschlagen, bitte erneut anmelden."
+    },
+    "connection_failed": {
+      "message": "Die Kommunikation mit dem ALL4100 ist fehlgeschlagen."
+    },
+    "switch_turn_off_failed": {
+      "message": "{name} konnte nicht ausgeschaltet werden."
+    },
+    "switch_turn_on_failed": {
+      "message": "{name} konnte nicht eingeschaltet werden."
+    }
+  }
+}
